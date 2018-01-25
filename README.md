@@ -1,11 +1,11 @@
 # react-scripts-next
-Latest version of original ```react-scripts```: **1.0.11**
+Latest version of original ```react-scripts```: **1.1.0**
 
 ### Disclaimer:
 > This is fork of ```react-scripts``` from ```create-react-app```. It provides simple way to modify webpack config without ejecting.
 
 ### How to use it
-```create-react-app my-app --scripts-version react-scripts-next```
+```npx create-react-app my-app --scripts-version react-scripts-next```
 
 Modify the ```./config/web pack.config.[ENV].js``` file in the root of the generated project and add any of the configuration options that you want.
 

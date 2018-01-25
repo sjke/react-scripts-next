@@ -6,8 +6,6 @@
  */
 
 import React from 'react';
-import tiniestCat from './assets/tiniest-cat.jpg';
+import { ReactComponent as Logo } from './assets/logo.svg';
 
-export default () => (
-  <img id="feature-image-inclusion" src={tiniestCat} alt="tiniest cat" />
-);
+export default () => <Logo />;

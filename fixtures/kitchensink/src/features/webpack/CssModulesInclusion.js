@@ -6,8 +6,8 @@
  */
 
 import React from 'react';
-import tiniestCat from './assets/tiniest-cat.jpg';
+import styles from './assets/style.module.css';
 
 export default () => (
-  <img id="feature-image-inclusion" src={tiniestCat} alt="tiniest cat" />
+  <p className={styles.cssModulesInclusion}>CSS Modules are working!</p>
 );
